@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nueva Palabra</title>
+    <link rel="stylesheet" href="style-palabraNueva.css">
+    <link rel="stylesheet" href="reset.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="cabezeraTitle">
+            <div class="title">Juego del Ahorcado</div>
+        </div>
+        <div class="cabezeraLogo">
+            <img class="logo" src="img/Logo.jpg" alt="Logo">
+        </div>
+    </header>
+
+    <main>
+
+
+        <form name="form">
+            <div id="In">
+                <textarea id=textIn placeholder="Ingrese la palabra aquí"></textarea>
+            </div>
+
+            <div id="flex-container">
+                <div id="element">
+                    <input type="button" id="btnNuevaPalabra" value="Guardar y empezar" onClick="AgregarPalabra()" />
+                    <a class="btnAgregarPalabraCancelar" href="index.html">Cancelar</a>
+                </div>
+            </div>
+        </form>
+
+    </main>
+
+    <footer>
+        <div id="pieDePagina">
+            <label>&#169By YaekOne</label>
+        </div>
+    </footer>
+</body>
+
+</html>

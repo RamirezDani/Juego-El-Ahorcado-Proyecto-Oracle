@@ -1,0 +1,336 @@
+html {
+    height: 100%;
+}
+
+body {
+
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(0, 212, 255, 1) 100%, rgb(13, 13, 80) 80%) fixed;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.cabezeraLogo{
+    position: absolute;
+    width: 100%;
+    height: 14%;    
+    
+}
+
+.logo {
+    
+    top: 30px;
+    left: 1px;    
+    padding: 0 10px;
+}
+
+.cabezeraTitle{
+
+    display: flex;
+    flex-direction: row;          
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    width: 100%;
+    height: 14%;    
+    text-align:center;
+    background-color:#ffffff;
+     
+}
+
+.title {
+    position: absolute;
+    top: 30px;
+    height: 5%; 
+    font-size: 80px;    
+    -webkit-text-stroke: 1.8px rgb(0, 0, 0);
+    color: rgb(212, 233, 238);        
+}
+
+#ahorcado{             
+    position: absolute;
+    top: 100px;
+    font-size: 40px;    
+    font-weight: bold;
+    text-align: center;
+    color: rgb(20, 79, 138);
+    height: 320px;
+    width: 100%;
+}
+
+.lineaBase {        
+    border-top: 5px solid black;    
+    max-width: 200px;
+    padding: 0;
+    margin: 308px auto 0 auto;
+}
+
+#lineaH {        
+    border-left: thick solid #000;
+    height:90%;
+    left: 50%;
+    top:20px;
+    position: absolute;
+}
+
+#lineaH2 {        
+    border-left: thick solid #000;
+    height:20%;
+    left: 60%;
+    top:6%;
+    position: absolute;
+}
+
+#lineaV {        
+    border-top: 5px solid #000;    
+    width:10.3%;
+    left: 50%;
+    top:19px;
+    position: absolute;    
+}
+
+#circulo {
+    width: 60px;
+    height: 60px;    
+    left:57.5%;
+    top:25%;
+    border-radius: 50%;
+    border: 5px solid #000;
+    position: absolute;
+}
+
+#lineaCuerpo {        
+    border-left: thick solid #000;
+    height:32%;
+    left: 60%;
+    top:46%;
+    position: absolute;;
+}
+
+#lineaBrazoIzq{
+    border-top: 5px solid #000;    
+    width:6%;
+    left: 55%;
+    top:56%;
+    position: absolute;
+    -webkit-transform: rotate(-45deg);
+     -moz-transform: rotate(-45deg);
+     -ms-transform: rotate(-45deg);
+     -o-transform: rotate(-45deg);
+     transform: rotate(-45deg);
+}
+
+#lineaPiernaIzq{
+    border-top: 5px solid #000;    
+    width:6%;
+    left: 55%;
+    top:86%;
+    position: absolute;
+    -webkit-transform: rotate(-45deg);
+     -moz-transform: rotate(-45deg);
+     -ms-transform: rotate(-45deg);
+     -o-transform: rotate(-45deg);
+     transform: rotate(-45deg);
+}
+
+#lineaBrazoDer{
+    border-top: 5px solid #000;    
+    width:6%;
+    left: 59.2%;
+    top:56%;
+    position: absolute;
+    -webkit-transform: rotate(225deg);
+     -moz-transform: rotate(225deg);
+     -ms-transform: rotate(225deg);
+     -o-transform: rotate(225deg);
+     transform: rotate(225deg);
+}
+
+#lineaPiernaDer{
+    border-top: 5px solid #000;    
+    width:6%;
+    left: 59.2%;
+    top:86%;
+    position: absolute;
+    -webkit-transform: rotate(225deg);
+     -moz-transform: rotate(225deg);
+     -ms-transform: rotate(225deg);
+     -o-transform: rotate(225deg);
+     transform: rotate(225deg);
+}
+
+
+#msgGana{
+
+    position: absolute;
+    top: 200px;
+    left:900px;
+    width: 30px;
+    font-size: 40px;    
+    font-weight: bold;
+    color: rgb(0, 149, 22);
+}
+
+#msgPierde{
+
+    position: absolute;
+    top: 200px;
+    left:25%;
+    width: 30px;
+    font-size: 40px;    
+    font-weight: bold;
+    color: rgb(149, 0, 0);
+}
+
+#contenedor {
+    position: absolute;
+    top: 430px;
+    /* left:50%; */
+    right: auto;
+    color: rgb(20, 79, 138);
+    font-weight: bold;
+    text-transform: uppercase;
+    /* background: red; */
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+#grupoLetras {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* background: rgb(208, 187, 66); */
+   /*  height: 10vh;
+    width: 20vw; */
+    /* margin: 0 auto 0 37.5%; */
+}
+
+#gLetra {
+    display: flex;
+    flex-direction: column;
+}
+
+.letra {
+
+    font-size: 32px;
+}
+
+.guion {
+    position: relative;
+    top: -50px;
+    font-size: 90px;
+}
+
+#malaLetra{
+    position: absolute;
+    top:490px;
+    width: 100%;
+    color: rgb(191, 87, 96);
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.flex {
+    
+    /* display: inline-block; */
+    display: flex;
+    flex-direction: row;    
+    width: 100%;
+    height: 60px;
+    
+    position: absolute;
+    top: 540px;
+    align-items: center;
+    justify-content: center; 
+
+}
+
+.flex-container {
+        
+    position: absolute;
+    width: 275px;
+    height: 80px;
+      
+
+    background-color: rgb(244, 253, 255);
+    border: 2px solid #000000;
+    border-radius: 40px;
+    color: white;
+    font-weight: bold;
+
+}
+
+#btnNuevoJuego {
+
+    position: relative;
+    left: 10px;
+    top: 10px;
+    border: 2px solid #000000;
+    /*anchura, estilo y color borde*/
+    padding: 20px;
+    /*espacio alrededor texto*/
+    background-color: rgb(164, 226, 239);
+    /*color botón*/
+    color: #000000;
+    /*color texto*/
+    text-decoration: none;
+    /*decoración texto*/
+    text-transform: uppercase;
+    /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif;
+    /*tipografía texto*/
+    border-radius: 50px;
+    /*bordes redondos*/
+    font-weight: bold;
+
+}
+
+#btnDesistirJuego {
+
+    position: relative;
+    left: 10px;
+    top: 10px;
+    border: 2px solid #000000;
+    /*anchura, estilo y color borde*/
+    padding: 20px;
+    /*espacio alrededor texto*/
+    background-color: rgb(212, 233, 238);
+    /*color botón*/
+    color: #000000;
+    /*color texto*/
+    text-decoration: none;
+    /*decoración texto*/
+    text-transform: uppercase;
+    /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif;
+    /*tipografía texto*/
+    border-radius: 50px;
+    /*bordes redondos*/
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#pieDePagina {
+    position: absolute;
+    top: 630px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 19px;
+}

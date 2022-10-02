@@ -1,0 +1,142 @@
+html {
+    height: 100%;
+}
+
+body {
+
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,212,255,1) 100%, rgb(13, 13, 80) 80%) fixed;    
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.cabezeraLogo{
+    position: absolute;
+    width: 100%;
+    height: 14%;    
+    
+}
+
+.logo {
+    
+    top: 30px;
+    left: 1px;    
+    padding: 0 10px;
+}
+
+.cabezeraTitle{
+
+    display: flex;
+    flex-direction: row;          
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    width: 100%;
+    height: 14%;    
+    text-align:center;
+    background-color:#ffffff;
+     
+}
+
+.title {
+    position: absolute;
+    top: 30px;
+    height: 5%; 
+    font-size: 80px;    
+    -webkit-text-stroke: 1.8px rgb(0, 0, 0);
+    color: rgb(212, 233, 238);        
+}
+
+#In{
+
+    display: flex;
+    flex-direction: row;    
+    width: 100%;
+    height: 100px;
+    top:40%;
+    position: absolute;
+    
+    align-items: center;
+    justify-content: center; 
+}
+
+#textIn {
+    
+    width: 400px;
+    height: 100px;       
+    border-radius: 30px;
+    border: 3px solid #0A3871;
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 36px;    
+    background-color: white;
+    
+}
+
+#flex-container{
+    display: flex;
+    flex-direction: row;  
+    top: 500px;    
+    width: 100%;
+    height: 60px;  
+    position: absolute;    
+    align-items: center;
+    justify-content: center; 
+}
+
+#element {
+           
+    width: 340px;   
+    height: 70px;     
+    background-color: rgb(244, 253, 255);
+    border: 2px solid #000000;
+    border-radius: 40px;
+    color: white;
+
+}
+
+#btnNuevaPalabra {
+
+    position: relative;
+    left: 8px;    
+    top:5px;
+    border: 2px solid #000000; /*anchura, estilo y color borde*/
+    padding: 20px; /*espacio alrededor texto*/
+    background-color: rgb(164, 226, 239); /*color botón*/
+    color: #000000; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+    font-weight: bold;
+    
+}
+
+.btnAgregarPalabraCancelar {
+
+    position: relative;
+    left: 15px;    
+    top: 5px;
+    border: 2px solid #000000; /*anchura, estilo y color borde*/
+    padding: 20px; /*espacio alrededor texto*/
+    background-color: rgb(212, 233, 238); /*color botón*/
+    color: #000000; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#pieDePagina {
+    position: absolute;
+    top: 630px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 19px;
+}

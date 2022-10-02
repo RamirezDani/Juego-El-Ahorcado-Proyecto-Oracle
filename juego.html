@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del Ahorcado</title>
+    <link rel="stylesheet" href="style-juego.css">
+    <link rel="stylesheet" href="reset.css">
+    <script src="index.js"></script>
+</head>
+
+<body onload="SeleccionaPalabra()">
+
+    <header>
+        <div class="cabezeraTitle">
+            <div class="title">Juego del Ahorcado</div>
+        </div>
+        <div class="cabezeraLogo">
+            <img class="logo" src="img/Logo.jpg" alt="Logo">
+        </div>
+    </header>
+
+    <main>
+
+        <div id="ahorcado">
+            <div id="contenedorAhorcado">
+                <div class="lineaBase"></div>
+            </div>
+            <div id="msgGana">
+            </div>
+    
+            <div id="msgPierde">
+            </div>
+        </div>
+
+       
+
+        <div id="contenedor">
+            <div id="grupoLetras">
+            </div>
+        </div>
+
+        <div id="malaLetra">
+        </div>
+
+        <div class="flex">
+            <div class="flex-container">
+                <input type="button" id="btnNuevoJuego" value="Nuevo Juego" onClick="NuevoJuego()" />
+                <input type="button" id="btnDesistirJuego" value="Desistir" onClick="DevuelveArray()" />
+                <!-- <a class="btnDesistirJuego" href="index.html" onClick="DevuelveArray">Desistir</a> -->
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div id="pieDePagina">
+            <label>&#169By YaekOne</label>
+        </div>
+    </footer>
+
+</body>
+
+</html>

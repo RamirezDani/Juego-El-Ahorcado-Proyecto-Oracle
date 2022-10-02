@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="cabezeraTitle">            
+            <div class="title">Juego del Ahorcado</div>
+        </div>
+        <div class="cabezeraLogo">
+            <img class="logo" src="img/Logo.jpg" alt="Logo">            
+        </div>
+    </header>
+
+    <main>
+
+        <div class="ahorcadoIMG">
+            <img src="img/ahorcadoIMG.png" alt="Logo">
+        </div>
+
+        <div id="flex-container">
+            <div id="container">
+                <a class="btnIniciarJuego" href="juego.html">Iniciar Juego</a>
+                <!-- <a class="btnAgregarPalabra" href="nuevaPalabra.html">Agregar nueva palabra</a>     -->
+                <input type="button" id="btnAgregarPalabra" value="Agregar nueva palabra"
+                    onClick="IndexANuevaPalabra()" />
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div id="piePagConten">
+            <label id="pieDePagina">&#169By YaekOne</label>
+        </div>
+    </footer>
+
+</body>
+
+</html>
